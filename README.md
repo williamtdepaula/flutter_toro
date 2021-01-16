@@ -10,7 +10,7 @@ O aplicativo terá três camadas, sendo elas:
 ### Como será a separação entre elas?
 
 O aplicativo irá usar programação modular. Por tanto, o aplicativo será dividido em módulos.
-Haverá uma pasta para módulos, nomeada "modules", e dentro dela irá ter os módulos do aplicativo, por exemplo: Home, Introduction, Login e etc. Cada módulo terá a pasta de View, para a Presentation. As pastas controllers e models para a regra de negócio, e a pasta infra, que será responsável pela última camada onde irá ter a Repository e as nossas Services/DataSource.
+Haverá uma pasta para módulos, nomeada "modules", e dentro dela irá ter os módulos do aplicativo, por exemplo: Home, Introduction, Login e etc. Cada módulo terá a pasta de View, para a Presentation. As pastas controllers e models para a regra de negócio, ou seja, nossa Business Logic. A pasta infra, que será responsável pela última camada onde irá ter a Repository e as nossas Services/DataSource.
 Haverá uma pasta para tudo aquilo que for global, nomeada "shared", e nela conterá coisas que podem ser usadas em mais de um módulo, por exemplo: Um widget de um botão que é padrão do aplicativo. Logo, pode ser usado tanto no módulo Introduction, módulo Login e etc.
 
 ### MVC? MVVM? Clean Code? etc...
