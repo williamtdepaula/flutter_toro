@@ -27,7 +27,7 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
     return SafeArea(
       child: SingleChildScrollView(
         child: Container(
-          padding: EdgeInsets.symmetric(horizontal: 16),
+          padding: EdgeInsets.all(16),
           height: MediaQuery.of(context).size.height,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
