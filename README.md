@@ -1,6 +1,12 @@
-# flutter_toro
+## ARQUITETURA
 
-A new Flutter project.
+* Quais as camadas necessárias?
+- O aplicativo terá três camadas, a Presentation
+Como será a separação entre elas?
+MVC? MVVM? Clean Code? etc...
+Quais as bibliotecas e frameworks a serem usados?
+Como você irá gerir o estado do seu app?
+E a gestão da qualidade?
 
 ## Getting Started
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/introduction_slider_item.dart';
+import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_slider_item.dart';
 
 class IntroductionItem extends StatelessWidget {
   final IntroductionSliderItem introduction;

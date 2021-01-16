@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/indicators.dart';
-import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/introduction_slider_item.dart';
-import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/introduction_item.dart';
+import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/indicators.dart';
+import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_item.dart';
+import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_slider_item.dart';
 
 class IntroductionSlider extends StatefulWidget {
   final List<IntroductionSliderItem> introductions;

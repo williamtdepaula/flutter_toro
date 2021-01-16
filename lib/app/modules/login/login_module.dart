@@ -1,6 +1,6 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_toro/app/modules/login/login_controller.dart';
-import 'package:flutter_toro/app/modules/login/login_page.dart';
+import 'package:flutter_toro/app/modules/login/controllers/login_controller.dart';
+import 'package:flutter_toro/app/modules/login/view/login_page.dart';
 
 class LoginModule extends ChildModule {
   @override

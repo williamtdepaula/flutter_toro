@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_toro/app/modules/login/components/input_login.dart';
-import 'package:flutter_toro/app/modules/login/login_controller.dart';
+import 'package:flutter_toro/app/modules/login/controllers/login_controller.dart';
+import 'package:flutter_toro/app/modules/login/view/components/input_login.dart';
 import 'package:flutter_toro/app/shared/components/button/default_button.dart';
 import 'package:flutter_toro/app/shared/constants.dart';
 
