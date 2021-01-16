@@ -5,6 +5,7 @@ import 'package:flutter_toro/app/modules/introduction/components/introduction_sl
 import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/introduction_slider.dart';
 import 'package:flutter_toro/app/modules/introduction/components/introduction_slider/introduction_text_span.dart';
 import 'package:flutter_toro/app/shared/components/button/default_button.dart';
+import 'package:flutter_toro/app/shared/constants.dart';
 import 'introduction_controller.dart';
 
 class IntroductionPage extends StatefulWidget {
@@ -41,7 +42,7 @@ class _IntroductionPageState
         IntroductionSliderItem(
           title:
               'Olá!\nAgora você tem o jeito\nmais fácil de investir na\nBolsa.',
-          imageAssetPath: 'assets/imgs/steps/step1.svg',
+          imageAssetPath: '$ASSETS_IMGS_STEPS_PATH/step1.svg',
         ),
         IntroductionSliderItem(
           title: 'Corretagem Zero',
@@ -57,12 +58,12 @@ class _IntroductionPageState
               TextSpan(text: 'inclusive da Bolsa.'),
             ],
           ),
-          imageAssetPath: 'assets/imgs/steps/step2.svg',
+          imageAssetPath: '$ASSETS_IMGS_STEPS_PATH/step2.svg',
           introductionImagePosition: IntroductionImagePosition.top,
         ),
         IntroductionSliderItem(
           title: 'Cashback em Fundos de Investimento',
-          imageAssetPath: 'assets/imgs/steps/step3.svg',
+          imageAssetPath: '$ASSETS_IMGS_STEPS_PATH/step3.svg',
           introductionImagePosition: IntroductionImagePosition.top,
           details: IntroductionTextSpan(
             textSpans: [
@@ -78,7 +79,7 @@ class _IntroductionPageState
         ),
         IntroductionSliderItem(
           title: 'E tem muito mais!',
-          imageAssetPath: 'assets/imgs/steps/step4.svg',
+          imageAssetPath: '$ASSETS_IMGS_STEPS_PATH/step4.svg',
           introductionImagePosition: IntroductionImagePosition.top,
           details: IntroductionCheckedDetail(
             details: [

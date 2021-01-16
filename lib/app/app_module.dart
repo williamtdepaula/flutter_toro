@@ -1,4 +1,5 @@
 import 'package:flutter_toro/app/modules/introduction/introduction_module.dart';
+import 'package:flutter_toro/app/modules/login/login_module.dart';
 import 'package:flutter_toro/app/pages/splash_page.dart';
 
 import 'app_controller.dart';
@@ -21,6 +22,10 @@ class AppModule extends MainModule {
         ModularRouter(
           '/introduction',
           module: IntroductionModule(),
+        ),
+        ModularRouter(
+          '/login',
+          module: LoginModule(),
         ),
       ];
 
