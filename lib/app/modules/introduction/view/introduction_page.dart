@@ -26,12 +26,15 @@ class _IntroductionPageState
 
   Widget _handlerRenderBody() {
     return SafeArea(
-      child: Column(
-        mainAxisSize: MainAxisSize.max,
-        children: [
-          _handlerRenderSlider(),
-          _handlerRenderButtons(),
-        ],
+      child: Padding(
+        padding: EdgeInsets.only(bottom: 16),
+        child: Column(
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            _handlerRenderSlider(),
+            _handlerRenderButtons(),
+          ],
+        ),
       ),
     );
   }
