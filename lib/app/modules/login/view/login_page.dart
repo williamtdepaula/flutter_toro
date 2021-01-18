@@ -35,6 +35,7 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
               Image.asset(
                 '$ASSETS_IMGS_PATH/logo-transparent.png',
                 height: 30,
+                key: Key('logo_login'),
               ),
               _handlerRenderTitle(),
               _handlerRenderForm(),
@@ -77,9 +78,11 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
       child: Column(
         children: [
           InputLogin(
+            key: Key('login_input'),
             title: 'E-mail ou CPF:',
           ),
           InputLogin(
+            key: Key('password_input'),
             title: 'Senha:',
             isPassword: true,
           ),

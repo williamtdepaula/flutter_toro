@@ -8,11 +8,12 @@ class DefaultButton extends StatelessWidget {
   final bool enabled;
 
   DefaultButton({
+    Key key,
     @required this.text,
     @required this.onPressed,
     this.outlined = false,
     this.enabled = true,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

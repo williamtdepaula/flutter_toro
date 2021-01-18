@@ -4,7 +4,8 @@ class InputLogin extends StatelessWidget {
   final String title;
   final bool isPassword;
 
-  InputLogin({this.title = '', this.isPassword = false});
+  InputLogin({Key key, this.title = '', this.isPassword = false})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {

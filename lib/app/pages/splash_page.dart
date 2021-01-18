@@ -18,7 +18,6 @@ class _SplashPageState extends State {
       splashTransition: SplashTransition.fadeTransition,
       animationDuration: Duration(seconds: 1),
       screenFunction: () async {
-        await Future.delayed(Duration(seconds: 1));
         return (await Modular.navigator
             .pushNamedAndRemoveUntil('/introduction', (_) => false)) as Widget;
       },
