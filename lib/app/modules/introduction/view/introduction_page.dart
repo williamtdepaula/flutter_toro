@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:flutter_toro/app/modules/introduction/controllers/introduction_controller.dart';
 import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_checked_detail.dart';
 import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_item.dart';
 import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_slider.dart';
 import 'package:flutter_toro/app/modules/introduction/view/components/introduction_slider/introduction_text_span.dart';
 import 'package:flutter_toro/app/shared/components/button/default_button.dart';
 import 'package:flutter_toro/app/shared/constants.dart';
-import '../controller/introduction_controller.dart';
 
 class IntroductionPage extends StatefulWidget {
   @override

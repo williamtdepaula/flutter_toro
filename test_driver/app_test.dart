@@ -2,6 +2,8 @@ import 'package:flutter_driver/flutter_driver.dart';
 import 'package:test/test.dart';
 
 void main() {
+  //Keys
+  final logoSplash = find.byValueKey('logo_splash_screen');
   final enterButtonIntroduction = find.byValueKey('enter_button_introduction');
   final openAccountButtonIntroduction =
       find.byValueKey('open_account_button_introduction');
@@ -40,6 +42,10 @@ void main() {
         return false;
       }
     }
+
+    test('Should show the logo on splash screen', () async {
+      await driver.waitFor(logoSplash);
+    });
 
     test(
         'Should show enter button to login and open account button on introduction page',

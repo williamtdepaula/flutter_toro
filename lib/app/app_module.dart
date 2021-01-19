@@ -1,6 +1,6 @@
 import 'package:flutter_toro/app/modules/introduction/introduction_module.dart';
 import 'package:flutter_toro/app/modules/login/login_module.dart';
-import 'package:flutter_toro/app/pages/splash_page.dart';
+import 'package:flutter_toro/app/modules/splash/splash_module.dart';
 
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +14,7 @@ class AppModule extends MainModule {
   List<ModularRouter> get routers => [
         ModularRouter(
           Modular.initialRoute,
-          child: (_, args) => SplashPage(),
+          module: SplashModule(),
         ),
         ModularRouter(
           '/introduction',

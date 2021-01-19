@@ -1,4 +1,5 @@
-import 'controller/introduction_controller.dart';
+import 'package:flutter_toro/app/modules/introduction/controllers/introduction_controller.dart';
+
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'view/introduction_page.dart';
