@@ -26,6 +26,7 @@ Serão utilizadas as bibliotecas:
 * dartz: Utilizada para facilitar o tratamento de erros;
 * animated_splash_screen: Utilizada para implementar uma Splash Screen com animações;
 * flutter_svg: Utilizada para a exibição de imagens em SVG;
+* dio: Utilizada para comunicação com APIs, caso seja necessário.
 
 Bibliotecas para testes:
 * flutter_test: Executar testes unitários;
@@ -49,7 +50,7 @@ Após os testes unitários serem desenvolvidos
 $ flutter test
 ```
 
-#### OU
+##### OU
 
 Entre na pasta "test", entre no arquivo do teste que queira testar e clique em "Run"
 
@@ -62,7 +63,7 @@ $ flutter drive --target=test_driver/app.dart
 ```
 
 
-### Além disso
+##### Além disso
 
 Os testes unitários e os testes de integração serão feitos com o CodeMagic
 
