@@ -27,17 +27,44 @@ Serão utilizadas as bibliotecas:
 * animated_splash_screen: Utilizada para implementar uma Splash Screen com animações;
 * flutter_svg: Utilizada para a exibição de imagens em SVG;
 
+Bibliotecas para testes:
+* flutter_test: Executar testes unitários;
+* flutter_driver: Executar testes de integração;
+* test: Para usar funções de teste e asserções reais.
+
 ### Como você irá gerir o estado do seu app?
 
 Será utilizado o MobX para estados locais e caso necessário para estados globais.
 
 ### E a gestão da qualidade?
 
-Para fazer a gestão de qualidade serão aplicados testes unitários.
+Para fazer a gestão de qualidade serão aplicados testes unitários, e testes de integração. Além também, da integração com o CodeMagic para CI/CD
 
 ## Testes
 
-Após os testes unitários serem desenvolvidos, será possível rodar o teste entrando na pasta "test", entrando no arquivo do teste que queira testar e clicar em "Run"
+### Testes Unitários
+
+Após os testes unitários serem desenvolvidos
+```
+$ flutter test
+```
+
+#### OU
+
+Entre na pasta "test", entre no arquivo do teste que queira testar e clique em "Run"
+
+
+### Testes de Integração
+
+Com um emulador ou um dispositivo conectado, na raiz do projeto execute o seguinte comando:
+```
+$ flutter drive --target=test_driver/app.dart
+```
+
+
+### Além disso
+
+Os testes unitários e os testes de integração serão feitos com o CodeMagic
 
 ## Instalação
 
@@ -54,5 +81,5 @@ $ cd flutter_toro
 Agora inicie o aplicativo no seu emulador ou dispositivo conectado (Usando o terminal):
 ```
 $ flutter run
-
+```
 
