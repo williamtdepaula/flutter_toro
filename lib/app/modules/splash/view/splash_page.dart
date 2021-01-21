@@ -17,7 +17,6 @@ class _SplashPageState extends ModularState<SplashPage, SplashController> {
         '$ASSETS_IMGS_PATH/logo-icon.png',
         key: Key('logo_splash_screen'),
       ),
-      duration: 50000,
       splashTransition: SplashTransition.fadeTransition,
       animationDuration: Duration(seconds: 1),
       screenFunction: this.controller.onFinishAnimation,
